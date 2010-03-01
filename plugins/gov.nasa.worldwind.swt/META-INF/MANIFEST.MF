@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SWT WorldWindow implementation
+Bundle-Suite: Geospatial Temporal Analysis
+Bundle-SuiteGroup: Views
+Bundle-Classification: U
+Bundle-SymbolicName: gov.nasa.worldwind.swt
+Bundle-Version: 0.6.350.13000
+Require-Bundle: gov.nasa.worldwind;bundle-version="0.6.284";visibility:=reexport,
+ org.eclipse.swt;bundle-version="3.4.0";visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: gov.nasa.worldwind.swt
