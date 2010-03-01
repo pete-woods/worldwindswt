@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="gov.nasa.worldwind.feature"
+      label="World Wind"
+      version="1.0.0">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="javax.media.opengl" version="1.1.2" match="greaterOrEqual"/>
+      <import plugin="gov.nasa.worldwind" version="0.6.284" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.swt" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="javax.media.opengl" version="1.1.2.pre-20080312" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="gov.nasa.worldwind"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="gov.nasa.worldwind.swt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.media.opengl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="javax.media.opengl.linux.x86"
+         os="linux"
+         ws="gtk"
+         arch="x86"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
+         id="javax.media.opengl.macosx.x86"
+         os="macosx"
+         ws="carbon"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+   <plugin
+         id="javax.media.opengl.win32.x86"
+         os="win32"
+         ws="win32"
+         arch="x86"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"/>
+
+</feature>
