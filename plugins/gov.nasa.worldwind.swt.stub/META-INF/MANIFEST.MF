@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: World Wind SWT stub application
+Bundle-SymbolicName: gov.nasa.worldwind.swt.stub
+Bundle-Version: 1.0.0
+Require-Bundle: org.eclipse.core.runtime,
+ gov.nasa.worldwind.swt;bundle-version="0.6.350"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
